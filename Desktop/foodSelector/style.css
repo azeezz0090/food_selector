@@ -1,0 +1,109 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
+    background: url("junk-food.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow-y: auto;
+
+}
+h3{
+    color: #fff;
+    margin: 10px 0px 20px;
+    font-weight: 100;
+    text-align: center;
+    font-size: 20px;
+}
+
+h1{
+    text-align: center;
+    margin-bottom: 15px;
+}
+.container{
+    width: 500px;
+}
+
+textarea{
+    display: block;
+    width: 100%;
+    height: 100px;
+    padding: 10px;
+    border: none;
+    font-family: inherit;
+    margin: 0 0 20px;
+}
+
+
+
+.tag{
+ background-color: #f0932b;
+ font-size: 12px;
+ padding: 10px 20px;
+ color: #fff;
+ border-radius: 20px;
+ margin:5px 5px;
+ display: inline-block;
+}
+
+.tag.highlight{
+ background-color: #273c75;
+}
+
+@media (max-width: 400px){
+
+    body{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        font-family: Arial, Helvetica, sans-serif;
+        height: 100%;
+        overflow: hidden;
+        margin: 0;
+        background: url("Piping-Hot-Food-1.jpg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        overflow-y: auto;
+    
+    }
+
+
+    textarea{
+        display: flex;
+        vertical-align: middle;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+        left: 10px;
+        width: 200px;
+        height: 70px;
+        padding: 10px;
+        border: none;
+        font-family: inherit;
+        margin: auto;
+    }
+
+
+    h3{
+        color: rgb(73, 36, 207);
+        margin: 10px 0px 20px;
+        font-weight: 100;
+        text-align: center;
+        font-size: 20px;
+    }
+
+}
